@@ -1,0 +1,94 @@
+*{
+ margin: 0px;
+ font-family: 'inter';
+}
+
+.menuSuperior{
+    background-color: #303030;
+    color: white;
+    padding: 60px;
+}
+
+#tituloSuperior{
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.menuInformacional{
+    background-color: #F9F9F9;
+    padding: 50px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    
+}
+
+.texto{
+margin-left: 140px;
+}
+
+#secaoQuemSomos{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    
+    
+}
+
+#img{
+    width: 400px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-left: 50px;
+}
+
+#tituloImg{
+  display: flex;
+  grid-column: auto;
+  margin: 200px 0px 0px 150px;
+ 
+ 
+}
+
+#textoImg{
+   margin-left: 150px;
+    font-size: 20px;
+}
+
+.formulario{
+    padding: 50px;
+    background-color: #303030;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+input{
+    border: 0px;
+    border-radius: 5px;
+    font-weight: bolder;
+    margin: 15px;
+    height: 40px;
+    width: 300px;
+    padding-left: 15px;
+    color: rgba (0, 0, 0, 0.5);
+    font-weight: normal;
+    
+}
+button{
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: #C07212;
+    margin: 35px;
+    height: 40px;
+    width: 200px;
+    padding-left: 15px;
+    font-size: large;
+}
+
+button:hover{
+    background-color: #b67b34;
+    transform: translateY(-3px);
+}
